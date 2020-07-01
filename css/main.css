@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+#full-width{
+  margin: 0 auto;
+  width: 1300px;
+}
+header{
+  background: url('../img/hero-image.png');
+  margin: 0;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+#navbar{
+  background-color:#095256ab;
+
+}
+.nav-text-white{
+  color: white !important;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+#text-align{
+  text-align: center;
+}
+#home{
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 300px;
+}
+.headline-top{
+  color: #bdbf09;
+   font-family: 'Roboto Slab', serif;
+  text-transform: capitalize;
+  font-size: 60px;
+  line-height: auto;
+  font-weight: 600;
+}
+.headline-bottom{
+  padding-top: 20px;
+  font-size: 40px;
+  color:#095256;
+  font-weight: 500;
+
+}
