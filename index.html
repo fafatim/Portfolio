@@ -5,8 +5,178 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!-- header start -->
+      <head>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <a class="navbar-brand" href="#home">Home</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+          </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+            <a class="nav-link" href="#work">Work<span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#contact">Contact</a>
+          </li>
+         <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+         </li>
+         </ul>
+        </div>
+        </nav>
+         <div id="home">
+           <div class="headline top">
+             <h1>Hi There! I'm Farhana Fatima.</h1>
+           </div>
+           <div class="headline bottom">
+             <p>I'm a web developer who focus on writing<br>clean, elgent & efficient code.</p>
+           </div>
+         </div>
 
+      </head>
+      <!-- header end -->
+      <main>
+        <!-- work start -->
+        <div id="work">
+          <div class="projects">
+            <h3>My Portfolio</h3>
+            <!-- first project start -->
+            <div class="first-project">
+             <a href="project_one/index.html" target="_blank">
+              <div class="image">
+                <img src="img/jubilee.png" alt="portfolio">
+              </div>
+              <div class="description">
+                <p>
+                  <strong>Jubilee Austen Project</strong>
+                  <span>HTML 5 & CSS Website</span>
+                  <span>This is my very first project where i Showed
+                    you can use simple HTML 5 & CSS to make clean
+                    portfolio with an elegant style.</span>
+
+
+              </div>
+            </a>
+            </div>
+            <!-- first project end -->
+            <!-- second project start -->
+            <div class="second-project">
+              <a href="project_two/index.html" target="_blank">
+               <div class="image">
+                 <img src="img/recipe-card.png" alt="recipe card">
+               </div>
+               <div class="description">
+                 <p>
+                   <strong>Recipe Collection</strong>
+                   <span>HTML 5 & CSS Exercise</span>
+                   <span>This is a sample of a recipe cards website.
+                       It contains ingredients, directions, an image,
+                      as well as the prep and cook times of a recipe card</span>
+                  </p>
+               </div>
+             </a>
+            </div>
+            <!-- second project end -->
+            <!-- third project start -->
+            <div class="third-project">
+              <a href="project_three/index.html" target="_blank">
+               <div class="image">
+                 <img src="img/rogue-pickings.png" alt="food">
+               </div>
+               <div class="description">
+                 <p>
+                   <strong>Rogue Pickings Website</strong>
+                    <span>HTML & CSS from photoshop design comp</span>
+                    <span>This is a sample wesite for a client who just start a new resturant
+                      business and want to have a wesite where people can see menu, location,
+                      gallery, reviews and order online.</span>
+                   </p>
+
+               </div>
+             </a>
+            </div>
+            <!-- third project end -->
+            <!-- forth project start -->
+            <div class="forth-project">
+              <a href="project_four/index.html" target="_blank">
+               <div class="image">
+                 <img src="img/vision-board.jpg" alt="vision board">
+               </div>
+               <div class="description">
+                  <p>
+                    <strong>Vision Plan 2020</strong>
+                    <span>HTML 5 & CSS work</span>
+                    <span>This is a awesome vision board webpage where you
+                      can add your upcoming year plans, hopes and dreams.</span>
+                  </p>
+               </div>
+             </a>
+            </div>
+        </div>
+
+        </div>
+        <!-- work end -->
+        <!-- about start -->
+        <div id="about">
+          <div class="about me">
+            <h3>About Me</h3>
+            <div class="picture">
+              <img src="" alt="">
+            </div>
+            <div class="description">
+              <p>I am passinate about the web</p>
+              <p>I always wanted to persue my career into web development.<br>
+              I tried different career before nothing really excite me as much
+              as this work.This is the work that i do with enthusiasm
+              and i will continue to do this even in a challenging situation,
+              Because challenges makes you feel alive.</P>
+
+
+
+            </div>
+          </div>
+        </div>
+        <!-- about end -->
+        <!-- contact start -->
+        <div id="contact">
+          <div class="footer">
+             <h3>Let's connect</h3>
+             <div class="hire-me">
+               <p>
+                 <span>646-867-5955</span><br>
+                 <span>farhana.fatima.lima@gmail.com</span>
+              </div>
+             <div class="follow-me">
+               <p>
+                 <span>Follow me</span>
+                 <ul>
+                   <li><a href=""><img src="img/twitter.png" alt="Twitter" /></a></li>
+                   <li><a href=""><img src="img/git-hub.png" alt="github" /></a></li>
+                   <li><a href=""><img src="img/linkedin.png" alt="linkedin" /></a></li>
+                 </ul>
+
+             </div>
+             <div class="meet-me">
+                 <p>
+                   <span>meet me</span>
+                   <span>Queens,NY<br>
+                     Let's go to meetups together!</span>
+             </div>
+
+          </div>
+
+        </div>
+        <!-- contact end -->
+
+      </main>
   </body>
 </html>
