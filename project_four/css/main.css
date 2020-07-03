@@ -1,0 +1,70 @@
+body{
+  background-color: #E8E8E8;
+
+
+}
+#vision-board{
+  width: 1200px;
+  height: 850px;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  overflow: auto;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin : 50px auto;
+  font-weight: 700;
+}
+.block{
+  width: 400px;
+  float: left;
+  box-sizing: border-box;
+
+}
+#grow, #flower, #work, #exercise, #dog, #mind{
+  height: 210px;
+  padding: 20px;
+}
+#freelance, #plan, #travel{
+  height: 430px;
+  padding: 30px;
+
+}
+#freelance, #grow{
+  text-align: left;
+}
+#work, #plan, #exercise,#flower,#dog{
+  text-align: center;
+}
+#travel, #mind{
+  text-align: right;
+}
+#grow, #work, #exercise, #mind{
+  background-color: #FFFFFF;
+}
+#plan{
+  background-color: #3B3B3B;
+}
+.text{
+  padding: 5px 15px;
+	background: #FFF44F;
+	font-size: 18px;
+}
+strong{
+  font-size:  38px;
+  line-height: 38px;
+  text-transform: none;
+}
+.tittle{
+  font-size: 30px;
+  margin: 10px 0;
+  color:white;
+
+}
+.marker{
+  font-family: 'Permanent Marker', cursive;
+	font-weight: normal;
+}
+#dog, #exercise{
+  padding-top: 40px;
+}
