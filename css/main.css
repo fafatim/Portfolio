@@ -6,16 +6,16 @@ font-family: 'Roboto Slab', serif;
 /* grid */
 
 .full-width {
-width: 1200px;
+width: 100%;
 margin: 0 auto;
 overflow: auto;
 }
 .half-width {
-width: 600px;
+width: 50%;
 float: left;
 }
 .three-width {
-width: 400px;
+width: 50%;
 float: left;
 }
 
